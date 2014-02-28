@@ -3,6 +3,8 @@ jquery-hideshowclass
 
 Pair of simple jQuery plugins for modifying display property and later adding a class on the element for smooth transitions.
 
+uses the power of requestAnimationFrame and listens to transition events
+
 
 # Usage:
 ====================
@@ -36,3 +38,7 @@ Pair of simple jQuery plugins for modifying display property and later adding a 
 
   });
 ```
+
+
+# TODO
+ - improve browser compatibility with requestAnimationFrame and transitionend event
