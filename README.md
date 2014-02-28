@@ -7,9 +7,22 @@ uses the power of requestAnimationFrame and listens to transition events
 
 
 # Usage:
-====================
 
-```javascript
+
+1. Include jQuery:
+
+	```html
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	```
+
+2. Include plugin's code:
+
+	```html
+	<script src="dist/jquery.hideshowclass.min.js"></script>
+	```
+3. .showClass() and .hideClass() are now available
+
+  ```javascript
   $(function() {
     // for adding
     $("#element").showClass('class_name');
@@ -37,7 +50,7 @@ uses the power of requestAnimationFrame and listens to transition events
     );
 
   });
-```
+  ```
 
 
 # TODO
