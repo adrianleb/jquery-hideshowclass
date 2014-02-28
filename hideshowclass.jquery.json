@@ -1,0 +1,40 @@
+{
+	"name": "showhideclass",
+	"title": "Show/Hide Class",
+	"description": "Modifying display property and later adding a class on the element for smooth transitions.",
+	"keywords": [
+		"jquery",
+		"show",
+		"hide",
+		"display",
+		"transitions",
+		"classes",
+		"plugins"
+	],
+	"version": "0.0.1",
+	"author": {
+		"name": "Adrian le Bas",
+		"email": "adrianleb@gmail.com",
+		"url": "http://adrians.info"
+	},
+	"maintainers": [
+		{
+			"name": "Adrian le Bas",
+			"email": "adrianleb@gmail.com",
+			"url": "http://adrians.info"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://zenorocha.mit-license.org/"
+		}
+	],
+	"bugs": "https://github.com/adrianleb/hideshowclass/issues",
+	"homepage": "https://github.com/adrianleb/hideshowclass/",
+	"docs": "https://github.com/adrianleb/hideshowclass#readme",
+	"download": "https://github.com/adrianleb/hideshowclass/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}

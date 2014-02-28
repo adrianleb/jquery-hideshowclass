@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery hide/show Class</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="../src/jquery.hideshowclass.js"></script>
+	</head>
+	<body>
+		<div id="element"></div>
+		<script>
+			$(function() {
+
+				// for adding
+				$("#element").showClass('class_name');
+
+				// for removing
+				$("#element").hideClass('class_name');
+
+				// if element to show/hide is different than the one the class is being applied to, set classElement param
+				$("#element").showClass('class_name', 'body');
+
+				// if element to show/hide is different than the one the class is being applied to, set classElement param
+				$("#element").hideClass('class_name', 'body');
+
+
+				// if you're more familiar with using objects, you can also do
+				$("#element").showClass({
+					className:'class_name', 
+					classElement:'body'
+				);
+
+				// if you're more familiar with using objects, you can also do
+				$("#element").hideClass({
+					className:'class_name', 
+					classElement:'body'
+				);
+
+			});
+		</script>
+	</body>
+</html>

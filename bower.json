@@ -1,0 +1,20 @@
+{
+	"name": "jquery-hideshowclass",
+	"version": "0.0.1",
+	"homepage": "https://github.com/adrianleb/hideshowclass/",
+	"authors": [
+		"Adrian le Bas <adrianleb@gmail.com>"
+	],
+	"description": "Modifying display property and later adding a class on the element for smooth transitions.",
+	"main": "dist/jquery.hideshowclass.js",
+	"keywords": [
+		"jquery",
+		"show",
+		"hide",
+		"display",
+		"transitions",
+		"classes",
+		"plugins"
+	],
+	"license": "MIT"
+}
